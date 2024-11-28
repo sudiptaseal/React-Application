@@ -1,5 +1,9 @@
+import React from 'react';
+import Greet from './components/Greet';
 const App = () => {
-  return <section>Hello</section>
+  return <div>
+    <Greet />
+  </div>
 }
 export default App;
 
