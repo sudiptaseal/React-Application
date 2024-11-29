@@ -1,9 +1,12 @@
 import React from 'react';
-import Add from './components/Add';
+import Greet from './components/Greet';
+import ProductInfo from './components/ProductInfo';
 
 const App = () => {
   return <div>
-    <Add />
+    <Greet/>
+    <ProductInfo/>
+
   </div>
 }
 export default App;
