@@ -1,10 +1,9 @@
 import React from 'react';
-import Password from './components/Password';
+import Cart from './components/Cart';
 
 const App = () => {
   return <div>
-    
-    <Password isValid={true}/>
+    <Cart />
   </div>
 }
 export default App;
