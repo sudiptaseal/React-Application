@@ -1,15 +1,17 @@
 import React from 'react';
-import User from './components/User';
+import Person from './components/Person';
+import Product from './components/Product';
 
 const App = () => {
   return <div>
     
-    <User 
-      img ="https://upload.wikimedia.org/wikipedia/commons/d/dc/Satyajit_Ray_in_New_York_%28cropped%29.jpg"
+    <Person 
       name="Sudipta Seal"
-      age={38}
-      isMarried={false}
-      hobbies={["sleeping","Coding","exercise"]} />
+      age={38} />
+
+      <Product
+        name="iPhone"
+        price={30000} />
 
   </div>
 }
